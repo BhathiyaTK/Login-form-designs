@@ -1,0 +1,85 @@
+body{
+    padding: 0;
+    margin: 0; 
+    background-image: url(images/back1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+}
+
+#login_form{
+    width: 350px;
+    height: 450px;
+    background: rgba(0,0,0,0.8);
+    color: azure;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 5px;
+}
+
+#login_form_icon{
+    width: 100px;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 10px;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#login_form input{
+    color: azure;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+#login_form p{
+    font-size: 16px;
+}
+
+#login_form input[type="submit"]{
+    background: #116eb9;
+    border: none;
+    outline: none;
+    height: 35px;
+    font-size: 16px;
+    border-radius: 50px;
+}
+
+#login_form input[type="submit"]:hover{
+    background: #13b42e;
+}
+
+#login_form input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 2px solid azure;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    font-size: 15px;
+}
+
+#login_form a{
+    text-decoration: none;
+    font-size: 13px;
+    color: azure;
+}
+
+#login_form a:hover{
+    text-decoration: underline;
+    color: rgb(14, 123, 248);
+    font-weight: bold;
+}
+#links{
+    text-align: center;
+}
